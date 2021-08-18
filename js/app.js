@@ -31,6 +31,7 @@ document.getElementById('keypad').addEventListener('click', function (event) {
 
 });
 
+// varification 
 function varifyPin() {
     const pin = document.getElementById('pin-window').value;
     const numberPressed = document.getElementById('keypad-number').value;
